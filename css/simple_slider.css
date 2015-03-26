@@ -1,0 +1,69 @@
+#featured { 
+    width: 800px;
+    height: 450px;
+    background: #000 url(../img/portfolio/campagne_mir/loading.gif) no-repeat center center;
+      overflow: hidden;  
+}
+#featured img,  #featured div {
+   display: none; 
+}  
+
+#slideshow2 { 
+    width: 600px;
+    height: 375px;
+    background: #000 url(../img/portfolio/campagne_mir/loading.gif) no-repeat center center;
+      overflow: hidden;  
+}
+#slideshow2 img,  #slideshow2 div {
+   display: none; 
+}  
+   
+div.orbit-wrapper {
+    width: 1px;
+    height: 1px;
+    position: relative;
+    margin-right: auto;
+    margin-left: auto; }
+
+div.orbit {
+    width: 1px;
+    height: 1px;
+    position: relative;
+    overflow: hidden }
+
+div.orbit>img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none; }
+
+div.orbit a img {
+    border: none }
+
+.orbit div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
+
+div.slider-nav {
+    display: block }
+
+div.slider-nav span {
+    width: 78px;
+    height: 100px;
+    text-indent: -9999px;
+    position: absolute;
+    z-index: 1000;
+    top: 50%;
+    margin-top: -50px;
+    cursor: pointer; }
+
+div.slider-nav span.right {
+    background: url(../img/portfolio/campagne_mir/right-arrow.png);
+    right: 0; }
+
+div.slider-nav span.left {
+    background: url(../img/portfolio/campagne_mir/left-arrow.png);
+    left: 0; }

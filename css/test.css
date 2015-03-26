@@ -1,0 +1,23 @@
+#galerie{
+	width: 100%;
+	padding: 0;
+}
+.aligner{
+	display: inline-block;
+}
+.no-marge{
+	margin: 0;
+	padding: 0;
+}
+.opacity{
+  opacity: 0.5;
+  margin-right: 0.4em;
+  margin-top: 1.5em;
+}
+
+.opacity:hover{
+  opacity: 1 ;
+}
+#active{
+	opacity: 1;
+}
