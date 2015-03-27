@@ -1,30 +1,50 @@
 <?php
-  $description = "Conception et création du design du site sqp motors";
-  $title = "web design sqp motors, ergonomie, design";
+  $description = "Création du logotype pour BB Tea, de sa carte de visite, packaging. Design et intégration de site internet.";
+  $title = "BB tea, vente de bubble tea ! : Webdesign - logotype - intégration";
   include('./../header.php');
 ?>
 <?php
-  $urlHeader = "sqp/header_sqp";
-  $descriptionHeader = "header sqp motors";
+  $urlHeader = "bb_tea/header_bb_tea";
+  $descriptionHeader = "header bb tea, boutique de bubble tea sur paris";
   $projetTitle = "bb tea";
-  $demande = "Refonte du design du site sqp motors. Le site réalisé avec le cms wordpress, devait reprendre les codes graphiques du logo de SQP motors et de l'univers des motos.";
-  $client = "SQP Motors // mission entreprise - Reventys";
-  $role = "ergonomie - design du site responsive";
-  $logiciel = "Illustrator - Photoshop";
-  $date = "janvier 2015";
+  $demande = "Pour l’ouverture d’une nouvelle boutique de bubble tea, création de l’identité et du site de BB tea.";
+  $client = "BB TEA // projet personnel";
+  $role = "logotype - packaging - webdesign et intégration du site";
+  $logiciel = "Illustrator - Photoshop - Sublime text - Framework Twitter Bootstrap";
+  $date = "septembre 2014";
   include('./../projet-presentation.php');
 ?>
   <div class="bg-projet-image">
+    <div class="row">
+      <div class="col-sm-6 col-sm-offset-3">
+        <br/>
+        <h2>Design du logotype</h2>
+        <img src="../img/portfolio/bb_tea/logo.svg" class="img-responsive center-block" alt="logotype de bb tea"/>
+      </div>
+    </div>
+  </div>
+    <div class="row">
+      <div class="col-sm-6 col-sm-offset-3">
+        <br/>
+        <p>
+          Pour le logo «BB tea», j'ai voulu retranscrire la multitude des goûts et des couleurs que l'on peut créer avec un bubble tea. Une boisson qui se boit aussi bien chaud que froid, qui vous fait du bien et vous rend heureux. 
+        </p>
+      </div>
+    </div>
+    <div class="row">
+    <br/>
+    <img src="../img/portfolio/bb_tea/bb_tea_carte.jpg" class="img-responsive" alt="carte de visite et pochette"/>
+    </div>
+  </section>
   <section>
   <div class="visible-xs">
     <div class="row col-sm-12 text-center">
-      <a href="preprod.reventys.com/sqp"><h2 class="bb-tea-h4">Webdesign du site</h2></a>
+      <a href="http://bubble-tea-time.net/"><h2 class="bb-tea-h4">Webdesign du site : www.bubble-tea-time.net</h2></a>
     </div>
     <div class="row">
-        <img src="../img/portfolio/sqp/webdesign_sqp_hp.jpg" class="img-responsive center-block" alt="webdesign sqp home page"/>
-        <img src="../img/portfolio/sqp/webdesign_sqp_entreprise.jpg" class="img-responsive center-block" alt="webdesign sqp motors préentation entreprise"/>
-        <img src="../img/portfolio/bb_tea/webdesign_news.jpg" class="img-responsive center-block" alt="webdesign sqp motors articles"/>
-         <img src="../img/portfolio/bb_tea/webdesign_real.jpg" class="img-responsive center-block" alt="webdesign sqp motors réalisation"/>
+        <img src="../img/portfolio/bb_tea/webdesign_mobile_1.jpg" class="img-responsive center-block" alt="webdesign bb tea"/>
+        <img src="../img/portfolio/bb_tea/webdesign_mobile_2.jpg" class="img-responsive center-block" alt="webdesign bb tea"/>
+        <img src="../img/portfolio/bb_tea/webdesign_mobile_3.jpg" class="img-responsive center-block" alt="webdesign bb tea"/>
         <br/>
     </div>
     <div class="row col-sm-12">
