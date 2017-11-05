@@ -54,12 +54,12 @@
       <div class="col-sm-4 text-loan-profil">
         <p>nom : Truong</p>
         <p>prénom : Loan</p>
-        <p>âge : 26 ans</p>
+        <p>âge : 27 ans</p>
         <p>ville : Bordeaux</p>
-        <p>métier : créative UX et UI Designer</p>
-        <p>expérience : 4 ans</p>
+        <p>métier : créative développeuse</p>
+        <p>expérience design : 4 ans</p>
         <p>valeurs : la passion, l’écoute, la créativité, l’exigence, l’engagement.</p>
-        <p class="text-italic space-header-work">J’aide les entreprises à se démarquer en désignant des interfaces web et mobile à la fois ergonomiques et élégantes</p>
+        <p class="text-italic space-header-work">J’aide les entreprises à se démarquer en développant des sites web et application mobile à la fois ergonomiques et élégantes</p>
       </div>
     </div>
   </div>
@@ -74,9 +74,9 @@
           <ul class="puce-about">
             <li>Conception produit, centré utilisateur</li>
             <li>Responsive Web Design</li>
-            <li>Design d'interface utilisateur (UI) web et mobile</li>
+            <li>Développement site web</li>
+            <li>Design d'interface utilisateur</li>
             <li>Design Graphique</li>
-            <li>Branding</li>
           </ul>
         <h2 class="space-header-work">Logiciels</h2>
           <h3>Création</h3>
@@ -91,6 +91,10 @@
               <li>HTML</li>
               <li>CSS3</li>
               <li>Twitter Bootstrap</li>
+              <li>Angular JS</li>
+              <li>Node.js</li>
+              <li>MySQL</li>
+              <li>Git et GitHub</li>
             </ul>
         </div>
       </div>
