@@ -27,18 +27,16 @@
     <div class="col-sm-4 col-sm-offset-2">
       <p class="article-end">Un marché potentiel avec « 61,6 millions d’animaux pour 64 millions de Français. ». (Le Figaro)</p>
       <p>Notre société fait que les propriétaires actifs ont de moins en moins de temps à consacrer à leurs compagnons. Un nombre croissant d'abandon des animaux lors des
-        départs en vacances, 40 % des français se sépare de leurs animaux pendant les vacances, alors que 44 % les confient à des connaissances. [source
-        Sopexa] ou des déménagement dans un logement plus petit.
-        Nous pouvons aussi noter le nombre de place limité, voir très limité dans les chenils.<p>
+        départs en vacances, 40 % des Français, se sépare de leurs animaux pendant les vacances, alors que 44 % les confient à des connaissances. [source
+        Sopexa] ou des déménagements dans un logement plus petit.
+        Nous pouvons aussi noter le nombre de places limité, voire très limité dans les chenils.<p>
       <p>
     </div>
     <div class="col-sm-4">
-      <p>Un marché porteur : Malgré la crise, les français n'hésitent pas à augmenter leurs dépenses pour leurs animaux.
-        Ils consacrent donc 4,5 milliards d’euros « un marché en constante augmentation, dont 1,5 milliards
-        dédiés à l’achat d’animaux » eux-mêmes.
+      <p>Un marché porteur : Malgré la crise, les Français n'hésitent pas à augmenter leurs dépenses pour leurs animaux.
+        Ils consacrent donc 4,5 milliards d’euros « un marché en constante augmentation, dont 1,5 milliards dédié à l’achat d’animaux » eux-mêmes.
       </p>
-      <p>De plus c'est un marché qui ne cesse d'augmenter. Selon la société centrale canine Sopexa, les français qui ne possèdent
-        pas de chien sont 41 % à souhaiter en avoir un jour.</p>
+      <p>De plus c'est un marché qui ne cesse d'augmenter. Selon la société centrale canine Sopexa, les Français qui ne possèdent pas de chien sont 41 % à souhaiter en avoir un jour.</p>
     </div>
   </div>
   <div class="row">
@@ -82,8 +80,8 @@
 </section>
 
 <?php
-  $urlPrecedent ="webdesign-portfolio-v1.php";
-  $urlSuivant = "newsletter-jean-louis-david.php";
+  $urlPrecedent ="campagne-mir.php";
+  $urlSuivant = "webdesign-wild-circus.php";
   include('./../aside.php');
 ?>
 

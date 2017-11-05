@@ -8,7 +8,7 @@
   $descriptionHeader = "header campagne Au Bonheur des Ogres";
   $projetTitle = "Au bonheur des ogres";
   $demande = "Pour la sortie au cinéma du film \"Au bonheur des ogres\". Création d'un habillage classique, de formats auto-promotionnels et d'un habillage slider.
-  L'habillage slider permet aux internautes d'accéder à une page dédié sur le film, avec un effet en parallax horizontal.";
+  L'habillage slider permet aux internautes d'accéder à une page dédiée sur le film, avec un effet en parallaxe horizontale.";
   $client = " mission entreprise : Webedia";
   $role = "déclinaison des formats et design de la page dédié";
   $logiciel = "Photoshop";

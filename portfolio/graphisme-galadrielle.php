@@ -46,7 +46,7 @@
         <br/>
         <h2>Création du webdesign</h2>
         <p class="article-end">
-        N'ayant pas de développeur php dans l'équipe, nous avons opté pour une solution plus simple. Nous avons sélectionné deux thèmes, que nous avons modifiés pour le retransformer en un design qui correspond au besoin du client. Les modifications apportées au thème choisit par la cliente :
+        N'ayant pas de développeur php dans l'équipe, nous avons opté pour une solution plus simple. Nous avons sélectionné deux thèmes, que nous avons modifiés pour le retransformer en un design qui correspond au besoin du client. Les modifications apportées au thème choisi par la cliente :
         <ul id="puce">
           <li>Ajout d'un player en bas du site, présent sur chaque page. Les utilisateurs pourront naviguer sur le site de leur chanteuse, tout en écoutant son nouveau son.</li>
           <li>Ajout sur la page d'accueil, un bloc permettant d'afficher les nouveautés.</li>
@@ -93,7 +93,7 @@
         <br/>
         <h2>Planche tendance</h2>
         <P class="article-end">
-        Avant de commencer à nous lancer dans la recherche de logotype, nous avons réalisé quelques planches tendances afin de capter l’univers de l’artiste. </p>
+        Avant de commencer à nous lancer dans la recherche de logotype, nous avons réalisé quelques planches tendance afin de capter l’univers de l’artiste. </p>
       </div>
     </div>
   </article>

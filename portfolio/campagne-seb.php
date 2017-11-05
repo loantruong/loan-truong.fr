@@ -9,7 +9,7 @@
   $projetTitle = "Campagne seb";
   $demande = "Réalisation d'une animation sur une recette de poisson sur l'application iPhone de 750g.</p>
         <p>BRIEF : Les légumes coupés en morceaux ainsi que le filet de poisson tombe petit à petit du haut de l'écran et atterrissent dans l'autocuiseur COOKEO qui se trouve dans une bannière en bas d'écran. Une fois les légumes et le poisson tombés, l'autocuiseur se referme et un wording apparaît : 'Découvrez l'autocuiseur intelligent COOKEO' avec une pastille sur l'autocuiseur pour inciter au clic.
-        <br/>Au clic sur l'autocuiseur, une assiette toute prête avec le poisson et les légumes cuits apparaît au-dessus de l'autocuiseur avec le wording : 'La cuisine devient simple avec COOKEO' + un bouton fermer.";
+        <br/>Au clic sur l'autocuiseur, une assiette toute prête avec le poisson et les légumes cuits apparaît au-dessus de l'autocuiseur avec le wording : 'La cuisine devient simple avec COOKEO' + un bouton fermé.";
   $client = "mission entreprise Webedia";
   $role = "création graphique de l'animation";
   $logiciel = "Photoshop";
@@ -60,7 +60,7 @@
 
 <?php
   $urlPrecedent ="webdesign-portfolio-v2.php";
-  $urlSuivant = "webdesign-games-thread.php";
+  $urlSuivant = "logotype-dream-developpement.php";
   include('./../aside.php');
 ?>
 

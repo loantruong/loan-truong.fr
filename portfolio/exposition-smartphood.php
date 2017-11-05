@@ -1,7 +1,7 @@
 <?php
-  $description = "smART PHOod est un évènement multi-disciplinaire, mettant en avant la gastronomie vietnamienne sur une période d’un mois, 
+  $description = "smART PHOod est un événement multidisciplinaire, mettant en avant la gastronomie vietnamienne sur une période d’un mois, 
   mélangeant exposition photo et animation. Le projet smART PHOod va permettre de faire découvrir et redécouvrir l’art culinaire du 
-  viêtnam auprès du public français. L’évènement permettra de créer un lieu de mémoire pour les vietnamiens, et surtout un lieu de 
+  Viêtnam auprès du public français. L’événement permettra de créer un lieu de mémoires pour les vietnamiens, et surtout un lieu de 
   rencontre et d’échange sur la gastronomie vietnamienne dans le dynamisme mondial.";
   $title = "projet smART PHOod : logo et identité visuelle";
   include('./../header.php');
@@ -10,7 +10,7 @@
   $urlHeader = "smartphood/header_smartphood";
   $descriptionHeader = "header smartphood, gastronomie vietnamienne";
   $projetTitle = "smart phood";
-  $demande = "Smart PHOod est un évènement multidisciplinaire, mettant en avant la gastronomie vietnamienne sur une période d’un mois, mélangeant exposition photo et animation. Le projet smart PHOod va permettre de faire découvrir et redécouvrir l’art culinaire du Viêtnam auprès du public français. L’évènement permettra de créer un lieu de mémoire pour les Vietnamiens, et surtout un lieu de rencontre et d’échange sur la gastronomie vietnamienne dans le dynamisme mondial. ";
+  $demande = "Smart PHOod est un événement multidisciplinaire, mettant en avant la gastronomie vietnamienne sur une période d’un mois, mélangeant exposition photo et animation. Le projet smart PHOod va permettre de faire découvrir et redécouvrir l’art culinaire du Viêtnam auprès du public français. L’événement permettra de créer un lieu de mémoires pour les Vietnamiens, et surtout un lieu de rencontres et d’échanges sur la gastronomie vietnamienne dans le dynamisme mondial. ";
   $client = "association UJVF";
   $role = "création logo, document de communication web et print";
   $logiciel = "Illustrator - Photoshop - Indesign - Photographie";
@@ -32,20 +32,19 @@
         <p>Mise en valeur les termes “Art” et “Pho”.</p>
         <p>ART : le fil rouge de l’exposition de la gastronomie. La gastronomie vietnamienne ne contient pas que le “bon”
           mais aussi le “beau”.</p>
-        <p>PHO : un des plats vietnamiens le plus connu au niveau international. Bien sûr la gastronomie vietnamiene n’a pas que le Pho.
-          Le Pho a été choisi pour capter l’attention du public sur la gastronomie vietnamienne. L’exposition à pour
-          but de mettre en valeur cet art, et mettre en valeur la culture vietnamienne.</p>
+        <p>PHO : un des plats vietnamiens le plus connu au niveau international. Bien sûr, la gastronomie vietnamienne n’a pas que le Pho.
+          Le Pho a été choisi pour capter l’attention du public sur la gastronomie vietnamienne. L’exposition a pour objet de mettre en valeur cet art, et de mettre en valeur la culture vietnamienne.</p>
 
         <p>Cible :</p>
         <ul>
-          <li>Jeune français ayant un intérêt à la culture vietnamienne.</li>
-          <li>Client du Foyer Vietnam (lieu de rencontre, d'échange autour de la culture vietnamienne).</li>
+          <li>Jeune Français ayant un intérêt à la culture vietnamienne.</li>
+          <li>Client du Foyer Vietnam (lieu de rencontres, d'échanges autour de la culture vietnamienne).</li>
           <li>Tout public</li>
         </ul>
         <p>But :</p>
           <ul>
             <li>Diffusion de la culture vietnamienne, la gastronomie au plus large public</li>
-            <li>Créer un lieu de rencontres et d'échange.</li>
+            <li>Créer un lieu de rencontre et d'échange.</li>
           </ul>
 
         <p>Mots-clés : PARTAGE / PROXIMITÉ / ÉCHANGE / ACCESSIBILITÉ / SIMPLICITÉ (d'échanges)</p>
@@ -53,12 +52,12 @@
       </div>
     </div>
     <div class="row">
-      <h3 class="text-center titre-logo col-sx-6">Piste 1 : logotype avec une typo fait main, simple, délicat.</h3>
+      <h3 class="text-center titre-logo col-sx-6">Piste 1 : logotype avec une typographie handmade, simple, délicat.</h3>
       <img src="../img/portfolio/smartphood/logo-1.jpg" class="img-responsive center-block" alt="logo piste 1"/>
     </div>
     <div class="row">
       <p class="col-sm-6 col-sm-offset-3">Typographie fait main, permet de donner l’idée de proximité et d’unique. À l’instar de la cuisine vietnamienne qui
-    est un art facilement accessible, dont chaque oeuvre est unique.</p>
+    est un art facilement accessible, dont chaque œuvre est unique.</p>
     </div> 
     <div class="row">
       <h3 class="text-center titre-logo col-sx-6">Piste 2 : typographie fait main avec plus de mouvement</h3>
@@ -69,7 +68,7 @@
       <img src="../img/portfolio/smartphood/logo-3.jpg" class="img-responsive center-block" alt="logo piste 3"/>
     </div>
     <div class="row">
-      <h3 class="text-center titre-logo col-sx-6">Piste 4 : simplicité, proximité.</h3><p class="text-center">Les couleurs du logotypes ont été inspirées de la photographie d’une soupe de poulet vietnamienne.<p>
+      <h3 class="text-center titre-logo col-sx-6">Piste 4 : simplicité, proximité.</h3><p class="text-center">Les couleurs du logotype ont été inspirées de la photographie d’une soupe de poulet vietnamienne.<p>
       <img src="../img/portfolio/smartphood/logo-4.jpg" class="img-responsive center-block" alt="logo piste 4"/>
       <img src="../img/portfolio/smartphood/logo-5.jpg" class="img-responsive center-block" alt="logo piste 4"/>
     </div>
@@ -110,13 +109,13 @@
     </div>
   </div>
   <div class="bg-projet-image row">
-      <img src="../img/portfolio/smartphood/exposition_smartphood.jpg" alt="exposition smartphood" title="photo de l'expo" class="img-responsive"/>
+      <img src="../img/portfolio/smartphood/exposition_smartphood.jpg" alt="exposition smartphood" title="photo de l'expo" class="img-responsive center-block"/>
   </div>
   </section>
 
 
 <?php
-  $urlPrecedent ="webdesign-a2fconseils.php";
+  $urlPrecedent ="webdesign-sqp.php";
   $urlSuivant = "webdesign-il-campiello.php";
   include('./../aside.php');
 ?>

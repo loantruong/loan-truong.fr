@@ -1,0 +1,29 @@
+/* DEMO-SPECIFIC STYLES */
+.first-anim{
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  animation-name: slidein;
+  animation-duration: 4.2s;
+}
+.second-anim{
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  animation-name: hello;
+  animation-duration: 8.2s;
+}
+
+/* The typing effect */
+@keyframes slidein {
+  from {
+  	margin-left: 100%;
+  	width: 300%;
+  }
+  to { 
+  	margin-left:;
+  	width: 100% }
+}
+@keyframes hello {
+	0%   {opacity: 0;}
+    50%  {opacity: 0;}
+    55%  {opacity: 0.1;}
+    65%  {opacity: 0.4;}
+    100% {opacity: 1;}
+}

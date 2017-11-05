@@ -48,8 +48,8 @@
     <div class="row bg-section">
       <div class="col-sm-8 col-sm-offset-2">
         <p class="article-end">
-        Pour ce projet, le client nous a fournit des photos du produit. Il fallait ainsi scénariser le produit et le rendre attractif pour une clientèle féminine.
-        Les courbes reprennent la couleur bleu du produit et de la marque, donnent du mouvement et un côté délicat à l'habillage.</p>
+        Pour ce projet, le client nous a fourni des photos du produit. Il fallait ainsi scénariser le produit et le rendre attractif pour une clientèle féminine.
+        Les courbes reprennent la couleur bleue du produit et de la marque, donnent du mouvement et un côté délicat à l'habillage.</p>
       </div>
     </div>
   </section>

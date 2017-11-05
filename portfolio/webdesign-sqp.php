@@ -7,8 +7,8 @@
   $urlHeader = "sqp/header_sqp";
   $descriptionHeader = "header sqp motors";
   $projetTitle = "Sqp Motors";
-  $demande = "Refonte du design du site sqp motors <a href='http://www.sqpmotors.com/'class='sqp'>[ancien site de référence]</a>. Le site doit être plus clair, plus agréable à voir et à utiliser pour les internautes. 
-  Le site réalisé avec le cms wordpress, devait reprendre les codes graphiques du logo de SQP motors et de l'univers motard.";
+  $demande = "Refonte du design du site sqp motors. Le site doit être plus clair, plus agréable à voir et à utiliser pour les internautes.
+  Le site réalisé avec le cms wordpress devait reprendre les codes graphiques du logo de SQP motors et de l'univers motard.";
   $client = "Sqp Motors // mission entreprise - Reventys";
   $role = "ergonomie - design du site responsive";
   $logiciel = "Illustrator - Photoshop";
@@ -45,20 +45,20 @@
             <ul class="no-marge center-ul">
               <li class="aligner opacity"><a rel="img1" href="#"><img src="../img/portfolio/sqp/mini_1.jpg" alt="miniature site internet sqp accueil" class="img-responsive taille-max"/></a></li>
               <li class="aligner opacity"><a rel="img2" href="#"><img src="../img/portfolio/sqp/mini_2.jpg" alt="miniature site internet sqp entreprise" class="img-responsive taille-max"/></a></li>
-              <li class="aligner opacity"><a rel="img3" href="#"><img src="../img/portfolio/sqp/mini_3.jpg" alt="miniature site internet sqp news" class="img-responsive taille-max"/></a></li> 
+              <li class="aligner opacity"><a rel="img3" href="#"><img src="../img/portfolio/sqp/mini_3.jpg" alt="miniature site internet sqp news" class="img-responsive taille-max"/></a></li>
               <li class="aligner opacity"><a rel="img4" href="#"><img src="../img/portfolio/sqp/mini_4.jpg" alt="miniature site internet sqp réalisations" class="img-responsive taille-max"/></a></li>
             </ul>
           </div>
         </div>
           <br/>
-              <a href="http://preprod.reventys.com/SQP/"><img src="../img/portfolio/sqp/btn_sqp.jpg" class="img-responsive center-block hidd" alt="bouton site"/></a>
+              <a href="http://www.sqpmotors.com/"><img src="../img/portfolio/sqp/btn_sqp.jpg" class="img-responsive center-block hidd" alt="bouton site"/></a>
         </div>
     </div>
   </section>
 
 <?php
-  $urlPrecedent ="webdesign-terredav.php";
-  $urlSuivant = "webdesign-a2fconseils.php";
+  $urlPrecedent ="mobiledesign-stootie.php";
+  $urlSuivant = "exposition-smartphood.php";
   include('./../aside.php');
 ?>
 

@@ -9,7 +9,7 @@
   $projetTitle = "Paris en Vert";
   $demande = "Conception d’un projet e-citoyen.</p>
         <p>Problématique : Comment valoriser les espaces verts de la ville, afin d'inciter la population à en profiter ? Pour cette application « Paris en vert », nous avons voulu travailler sur l'aspect écologique et social que pourrait offrir ce service. Tout en incitant les habitants, à participer et s'intégrer dans une communauté.
-        <br/>Paris en vert est une application qui va permettre aux habitants redécouvrir leurs quartier et leurs voisins, en partageant des instant ensemble (participer à la vie d’un jardin, participer à des activités, jeux...organisé et proposé par les associations et les participants). Il s’agit de découvrir Paris sous un nouveau jour à l’aide d'activité et de la réalité augmentée.
+        <br/>Paris en vert est une application qui va permettre aux habitants redécouvrir leur quartier et leurs voisins, en partageant des instants ensemble (participer à la vie d’un jardin, participer à des activités, jeux...organisé et proposé par les associations et les participants). Il s’agit de découvrir Paris sous un nouveau jour à l’aide d'activité et de la réalité augmentée.
 ";
   $client = "Mairie de Paris // Projet scolaire - IUT Cergy";
   $role = "conception du projet, ergonomie et design de l’application mobile
@@ -24,9 +24,9 @@
         <br/>
         <h2>L’application mobile au coeur du projet</h2>
         <p class="article-end">
-        Nous sommes dans une société qui est tout le temps connectée à internet et en particulier les réseaux communautaires. 
-        L'application, permet la mobilité tout en restant connecté. Cette application permet de trouver les différentes activités, 
-        de parcourir le quartier d'activité en activité, et donc d'espace vert en espace vert. 
+        Nous sommes dans une société qui est tout le temps connectée à Internet et en particulier les réseaux communautaires. 
+        L'application permet la mobilité tout en restant connectée. Cette application permet de trouver les différentes activités, 
+        de parcourir le quartier d'activités en activité, et donc d'espace verts en espace vert. 
         Ce parcours personnalisé par l'utilisateur, va lui permettre de redécouvrir ou découvrir le quartier de manière ludique.</p>
     </div>
     <div class="row">
@@ -35,8 +35,8 @@
         <p>Caractéristiques de l'application :</p>
         <ul>
           <li>Écologique : pour une ville plus verte</li>
-          <li>Tourisme vert : paris autrement (ludique, divertissement)</li>
-          <li>Social : partage entre génération et cultures.</li>
+          <li>Tourisme vert : paris autrement (ludiques, divertissement)</li>
+          <li>Social : partage entre générations et cultures.</li>
         </ul>
       </div>
       <div class="col-sm-5">
@@ -89,19 +89,19 @@
     <div class="row">
       <div class="col-sm-8 col-sm-offset-2">
       <h3>Plan de scénarisation</h3>
-      <p>Paris en vert est porté sur deux grands axes: un canal internet (création d’un site informatif sur le projet) et un canal multimédia (application mobile)</p>
+      <p>Paris en vert est porté sur deux grands axes : un canal Internet (création d’un site informatif sur le projet) et un canal multimédia (application mobile)</p>
       <img src="../img/portfolio/paris_vert/plan_scenarisation.jpg" alt="plan de scénarisation" title="plan de scénarisation" class="img-responsive center-block"/>
       <h3>Wireframe site vitrine</h3>
       <p>Ce site présente en détail le but du projet Paris en Vert et contient un lien vers une application Iphone et Android.</p>
       <img src="../img/portfolio/paris_vert/wireframe_site.jpg" alt="plan de scénarisation" title="plan de scénarisation" class="img-responsive center-block"/>
       <h3>Wireframe de l'application mobile</h3>
-      <p>L’ application mobile est le coeur central de notre projet. Nous sommes dans une société qui est tout le temps connecté à internet et en particulier les
+      <p>L’application mobile est le coeur central de notre projet. Nous sommes dans une société qui est tout le temps connectée à Internet et en particulier les
         réseaux communautaires. L’application permet la mobilité tout en restant
-        connecté. Pour cette raison nous l’avons mise au coeur du projet, comme
+        connecté. Pour cette raison, nous l’avons mise au coeur du projet, comme
         source d’outil à la diffusion de Paris en Vert.
-        Cette application permet de trouver les différents activités, de parcours
-        le quartier d’activité en activité et donc d’espace vert en espace vert. Ce
-        parcours personnalisé par l’utilisateur va lui permettre de re-découvrir ou
+        Cette application permet de trouver les différentes activités, de parcours
+        le quartier d’activité en activité et donc d’espaces verts en espace vert. Ce
+        parcours personnalisé par l’utilisateur va lui permettre de redécouvrir ou
         découvrir le quartier de manière ludique.</p>
       <img src="../img/portfolio/paris_vert/wireframe_mobile.jpg" alt="plan de scénarisation" title="plan de scénarisation" class="img-responsive center-block"/>
       </div>
@@ -115,13 +115,7 @@
         <li>Age : 26 ans.</li>
       </ul>
       <p>Il est cadre dans une entreprise parisienne et vit dans le 13ème
-      arrondissement.
-      Il n’a jamais eu de jardin à lui cependant il aimerait avoir une maison avec
-      un coin de verdure à lui dans un futur proche. Un soir, en rentrant chez
-      lui, il croise quelques affiche de Paris en Vert dans les rues. Le soir en
-      naviguant sur internet pour prévoir son week-end, il s’est rappelé de l’affiche
-      est à taper Paris en Vert. Il est ensuite aller sur le site et à télécharger
-      l’application.</p> <br/>
+      arrondissement. Il n’a jamais eu de jardin à lui cependant, il aimerait avoir une maison avec un coin de verdure à lui dans un futur proche. Un soir, en rentrant chez lui, il croise quelques affiches de Paris en Vert dans les rues. Le soir en naviguant sur Internet pour prévoir son week-end, il s’est rappelé de l’affiche est à taper Paris en Vert. Il est ensuite allé sur le site et a téléchargé l’application.</p> <br/>
     </div>
     <div class="row">
       <div class="col-sm-12">

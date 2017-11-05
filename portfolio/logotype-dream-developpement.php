@@ -48,7 +48,7 @@
 </section>
 
 <?php
-  $urlPrecedent ="webdesign-games-thread.php";
+  $urlPrecedent ="campagne-seb.php";
   $urlSuivant = "campagne-asepta.php";
   include('./../aside.php');
 ?>

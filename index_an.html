@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Loan Truong, graphiste webdesigner">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <title>Loan Truong: User Experience and User Interface designer</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+    <link href="css/test_loan.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/stylesheet.css" type="text/css" charset="utf-8" />
+    <script src="https://code.createjs.com/createjs-2015.11.26.min.js"></script>
+    <script src="js/logo.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300|Montserrat:700" rel="stylesheet">
+    <!-- Just for debugging purposes. Don't actually copy this line! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  <style type="text/css"></style>
+</head>
+<body onload="init();">
+  <nav>
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Menu</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        <!--<a href="index.html"><img src="img/btn/logo_petit.png" alt="logotype" class="img-responsive logo"/><p>Loan Truong, <br/> UX & UI designer</p></a>-->
+        <a href="index.html"><img src="img/btn/logo_loan_nav.svg" alt="logotype" class="logo-nav-img"/><p class="logo-nav josefin-font">Loan Truong, <br/> UX & UI designer</p></a>
+        </div>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="active"><a href="#">home</a></li>
+            <li class=""><a href="portfolio.html">portfolio</a></li>
+  			<li class=""><a href="#">contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <section class="gradient">
+  	<div class="text-center josefin-font">
+        <canvas id="canvas-logo"></canvas>
+        <h2 class="name-loan first-anim">Hi, I am Loan, a freelance creative UX & UI designer.<!--strong knowledge of user interface design,--></h2>
+        <h1 id="title" class="montserrat-font second-anim">I design elegant<span class="josefin-font"> &</span> user-centered interface</h1>
+        <!--<p class="cta-margin"><a href="portfolio.html" class="cta">see my work<span class="ic-arrow img-sprite"></span></a></p>-->
+
+      </div>
+     </section>
+     <section class="slide">
+     	<div class="bg-black josefin-font"><h2 class="text-center"><span class="text-uppercase">create digital experience</span> <br/>user-friendly and beautiful</h2>
+     	</div>
+     	<div class="row padding-text">
+     		<div class="col-sm-4">
+     			<h3 class="montserrat-font">Improving User Experience</h3>
+     			<p>Nowadays, user experience has a significant role in developing and designing products. We need to better understand the user requirements during the process.</p>
+     		</div>
+     		<div class="col-sm-4">
+     			<h3 class="montserrat-font">Designing Interfaces</h3>
+     			<p>Create a design who makes sens. To make the user experience more enjoyable by offering a sleek interface, simple to use.</p>
+     		</div>
+     		<div class="col-sm-4">
+     			<h3 class="montserrat-font">Designing strong Brand</h3>
+     			<p>Nowadays having a good branding is very important in order to retain customers and stand out from your competitors.</p>
+     		</div>
+     	</div>
+    <div class="container" id="portfolio">
+      <br class="hidden-xs">
+      <div class="row text-center">
+        <ul class="subtitle hidden-xs">
+          <li class="inline-block"><img src="img/ornement_fleche_left.png" class="img-responsive" alt=""/></li>
+          <li class="inline-block"><h1 class="title-name element">Mes petits projets</h1></li>
+          <li class="inline-block"><img src="img/ornement_fleche_right.png" class="img-responsive" alt=""/></li>
+        </ul>
+      </div>
+ <div class="row">
+       <div class="col-sm-8 espacement">
+          <div class="grid">
+          <a data-toggle="modal" href="portfolio/application-mobile-design-mb-ios.php"><figure>
+           <h3 class="visible-xs title-mobile">Medicapp Bilans - iOS</h3>
+            <img class="img-responsive transparent" src="img/projet_home/projet_application_mobile_mb_grand.jpg" alt="mobile design : application médicale sur iOS">
+              <figcaption>
+              <div class="content text-uppercase">
+              <h3>Medicapp Bilans - iOS</h3>
+              <p class="btn btn-projet btn-lg">Voir le projet</p>
+              </div>
+            </figcaption>
+            </figure>
+          </a>  
+        </div>
+       </div>
+    <div class="col-sm-4 espacement">
+      <div class="grid">
+          <a href="portfolio/application-mobile-design-mb-android.php" data-toggle="modal"><figure> 
+            <h3 class="visible-xs title-mobile">Medicapp Bilans - Android</h3>
+            <img class="img-responsive transparent" src="img/projet_home/projet_application_mobile_mb_android_moyen.jpg" alt="mobile design : application médicale sur android" title="projet webdesign licences">
+            <figcaption>
+              <div class="content text-uppercase">
+                <h3>Medicapp Bilans - android</h3>
+                <p class="btn btn-projet btn-lg hidden-xs" title="voir le projet Medicapp Bilans sur android">Voir le projet</p>
+              </div>
+              </figcaption> 
+          </figure></a>
+        </div>
+    </div>
+    </section>
+    <!--<footer class="navbar-fixed-bottom">
+	    <div class="center-block text-center">
+	        <div class="row col-lg-12">
+	          <ul class="mobile-center">
+	            <li class="inline-block"><a href="mailto:loancrea@gmail.com"><span class="ic-mail img-sprite"></span></a></li>
+	            <!--<li class="inline-block"><a href="https://www.behance.net/loan-truong"><img src="img/btn/social/btn_behance.png" class="btn-behance btn-social" alt="lien vers behance"/></a></li>-->
+	            <!--<li class="inline-block"><a href="https://www.linkedin.com/pub/loan-truong/73/891/228" class="ic-linkedin img-sprite"></a></li>
+	          </ul>
+	        </div>
+	        <div class="row">
+	          <div class="col-lg-12">
+	            <p class="copyright">Copyright &copy; 2014 - Loan truong</p>
+	          </div>
+	        </div>
+	     </div>
+	  </footer>-->
+
+    <script src="js/jquery-1.11.1.min.js" defer></script>
+    <script src="js/bootstrap.min.js" defer></script>
+    <script>
+    var canvas, stage, exportRoot;
+    function init() {
+      canvas = document.getElementById("canvas-logo");
+        handleComplete();
+    }
+    function handleComplete() {
+      //This function is always called, irrespective of the content. You can use the variable "stage" after it is created in token create_stage.
+      exportRoot = new lib.logo();
+      stage = new createjs.Stage(canvas);
+      stage.addChild(exportRoot); 
+      //Registers the "tick" event listener.
+      createjs.Ticker.setFPS(lib.properties.fps);
+      createjs.Ticker.addEventListener("tick", stage);      
+      //Code to support hidpi screens and responsive scaling.
+      (function(isResp, respDim, isScale, scaleType) {    
+        var lastW, lastH, lastS=1;    
+        window.addEventListener('resize', resizeCanvas);    
+        resizeCanvas();   
+        function resizeCanvas() {     
+          var w = lib.properties.width, h = lib.properties.height;      
+          var iw = window.innerWidth, ih=window.innerHeight;      
+          var pRatio = window.devicePixelRatio || 1, xRatio=iw/w, yRatio=ih/h, sRatio=1;      
+          if(isResp) {                
+            if((respDim=='width'&&lastW==iw) || (respDim=='height'&&lastH==ih)) {                    
+              sRatio = lastS;                
+            }       
+            else if(!isScale) {         
+              if(iw<w || ih<h)            
+                sRatio = Math.min(xRatio, yRatio);        
+            }       
+            else if(scaleType==1) {         
+              sRatio = Math.min(xRatio, yRatio);        
+            }       
+            else if(scaleType==2) {         
+              sRatio = Math.max(xRatio, yRatio);        
+            }     
+          }     
+          canvas.width = w*pRatio*sRatio;     
+          canvas.height = h*pRatio*sRatio;
+          canvas.style.width = w*sRatio+'px';     
+          canvas.style.height = h*sRatio+'px';
+          stage.scaleX = pRatio*sRatio;     
+          stage.scaleY = pRatio*sRatio;     
+          lastW = iw; lastH = ih; lastS = sRatio;   
+        }
+      })(false,'both',false,1); 
+    }
+    </script>
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-55647366-2', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>

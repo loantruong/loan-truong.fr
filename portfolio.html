@@ -5,12 +5,11 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Portfolio de Loan Truong, Graphiste Webdesigner. Tous mes projets web, mobile, print, publicité, logotype et autres ...">
-    <meta name="author" content="Loan Truong, graphiste webdesigner">
-    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
-    <title>Portfolio Graphiste Webdesigner Loan Truong - Graphic Design</title>
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/styles.min.css" rel="stylesheet">
+    <meta name="description" content="portfolio Loan Truong, tous mes projets d'interface web et mobile">
+    <meta name="author" content="Loan Truong: UX/UI designer web et mobile">
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <title>Portfolio de Loan Truong, UI/UX Designer, Bordeaux</title>
+    <link href="css/styles.css" rel="stylesheet">
     <link rel="stylesheet" href="../css/stylesheet.css" type="text/css" charset="utf-8" />
     <!-- Just for debugging purposes. Don't actually copy this line! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
@@ -19,17 +18,16 @@
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-44825408-1', 'auto');
+      ga('send', 'pageview');
+    </script>
   <style type="text/css"></style>
-  <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-55647366-2', 'auto');
-  ga('send', 'pageview');
-
-</script>
 </head>
 <body>
   <nav>
@@ -42,34 +40,162 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-        <a href="index.html"><img src="img/btn/logo_petit.png" alt="logotype" class="img-responsive logo"/></a>
+        <a href="index.html"><img src="img/btn/logo_loan_nav.svg" alt="logotype" class="logo-nav-img"/><p class="logo-nav josefin-font">Loan Truong, <br/> UX & UI designer</p></a>
         </div>
         <div class="collapse navbar-collapse">
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="index.html">Home</a></li>
-            <li class="active"><a href="portfolio.html">Portfolio</a></li>
-            <li class="dropdown"><a href="cv/cv.html">CV</a>
+            <li class=""><a href="index.html" class="menu-design">accueil</a></li>
+            <li class="active"><a href="portfolio.html" class="menu-design">portfolio</a></li>
+            <li class=""><a href="about.php" class="menu-design">à propos</a></li>
           </ul>
         </div>
       </div>
     </div>
   </nav>
+  <header class="clearfix">
+    <h1 class="row text-center title-name element">Mes  projets</h1>
+  </header>
   <section>
-    <div class="container" id="portfolio">
-      <br class="hidden-xs">
-      <div class="row text-center">
-        <ul class="subtitle hidden-xs">
-          <li class="inline-block"><img src="img/ornement_fleche_left.png" class="img-responsive" alt=""/></li>
-          <li class="inline-block"><h1 class="title-name element">Mes petits projets</h1></li>
-          <li class="inline-block"><img src="img/ornement_fleche_right.png" class="img-responsive" alt=""/></li>
-        </ul>
-      </div>
-
-    <div class="row">
-       <div class="col-sm-8 espacement">
+    <div class="container espace-projet-texte" id="portfolio">
+      <div class="row">
+        <div class="col-sm-4 espacement">
+           <div class="grid">
+           <a href="portfolio/webdesign-wild-circus.php">
+           <h3 class="visible-xs title-mobile">Wild Circus - site web</h3>
+           <figure>
+             <img class="img-responsive transparent" src="img/projet_home/wild_circus_grand.jpg" alt="site responsive pour la compagny de cirque Wild Circus">
+               <figcaption>
+               <div class="content text-uppercase">
+               <h3>Wild Circus - site web</h3>
+               <p class="btn btn-projet btn-lg">Voir le projet</p>
+               </div>
+             </figcaption>
+             </figure>
+           </a>
+         </div>
+        </div>
+       <div class="col-sm-4 espacement">
           <div class="grid">
-          <a href="portfolio/exposition-smartphood.php" data-toggle="modal"><figure> 
+          <a href="portfolio/application-mobile-design-mb-iPhone.php">
+          <h3 class="visible-xs title-mobile">Medicapp Bilans - iPhone</h3>
+          <figure>
+            <img class="img-responsive transparent" src="img/projet_home/projet_application_mobile_mb_iphone_grand.jpg" alt="mobile design : application médicale sur iPhone">
+              <figcaption>
+              <div class="content text-uppercase">
+              <h3>Medicapp Bilans - iPhone</h3>
+              <p class="btn btn-projet btn-lg">Voir le projet</p>
+              </div>
+            </figcaption>
+            </figure>
+          </a>
+        </div>
+       </div>
+    <div class="col-sm-4 espacement">
+      <div class="grid">
+          <a href="portfolio/application-mobile-design-mb-android.php" data-toggle="modal">
+          <h3 class="visible-xs title-mobile">Medicapp Bilans - Android</h3>
+          <figure>
+            <img class="img-responsive transparent" src="img/projet_home/projet_application_mobile_mb_android_grand.jpg" alt="mobile design : application médicale sur android" title="projet webdesign licences">
+            <figcaption>
+              <div class="content text-uppercase">
+                <h3>Medicapp Bilans - android</h3>
+                <p class="btn btn-projet btn-lg hidden-xs" title="voir le projet Medicapp Bilans sur android">Voir le projet</p>
+              </div>
+              </figcaption>
+          </figure></a>
+        </div>
+    </div>
+  </div>
+  <div class="row">
+       <div class="col-sm-4 espacement">
+          <div class="grid">
+          <a href="portfolio/webdesign-choisir-licence.php" data-toggle="modal">
+            <h3 class="visible-xs title-mobile">Licence Open Source</h3>
+            <figure>
+            <img class="img-responsive transparent visible-xs" src="img/projet_home/projet_licence_grand.jpg" alt="projet choisir sa licence open source" title="projet webdesign licences">
+             <img class="img-responsive transparent hidden-xs" src="img/projet_home/projet_licence_moyen.jpg" alt="projet choisir sa licence open source" title="projet webdesign licences">
+            <figcaption>
+              <div class="content text-uppercase">
+                <h3>Licence Open Source</h3>
+                <p class="btn btn-projet btn-lg hidden-xs" title="voir le projet licence">Voir le projet</p>
+              </div>
+            </figcaption>
+            </figure>
+            </a>
+          </div>
+       </div>
+        <div class="col-sm-8 espacement">
+          <div class="grid">
+          <a href="portfolio/application-mobile-design-mdp.php" data-toggle="modal">
+            <h3 class="visible-xs title-mobile">Medicapp Dossiers Patients</h3>
+            <figure>
+             <img class="img-responsive transparent" src="img/projet_home/projet_application_mobile_mdp_grand.jpg" alt="mobile design : application médicale sur iPhone" title="design ios apps">
+            <figcaption>
+              <div class="content text-uppercase">
+                <h3>Medicapp Dossiers Patients</h3>
+                <p class="btn btn-projet btn-lg hidden-xs" title="voir le projet licence">Voir le projet</p>
+              </div>
+            </figcaption>
+            </figure>
+            </a>
+          </div>
+       </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-4 espacement">
+         <div class="grid">
+         <a data-toggle="modal" href="portfolio/application-mobile-design-mb-ios.php">
+         <h3 class="visible-xs title-mobile">Medicapp Bilans - iOS</h3>
+         <figure>
+           <img class="img-responsive transparent" src="img/projet_home/projet_application_mobile_mb_grand.jpg" alt="mobile design : application médicale sur iOS">
+             <figcaption>
+             <div class="content text-uppercase">
+             <h3>Medicapp Bilans - iOS</h3>
+             <p class="btn btn-projet btn-lg">Voir le projet</p>
+             </div>
+           </figcaption>
+           </figure>
+         </a>
+       </div>
+      </div>
+      <div class="col-sm-4 espacement">
+         <div class="grid">
+         <a data-toggle="modal" href="portfolio/webdesign-sqp.php">
+         <h3 class="visible-xs title-mobile">webdesign SQP</h3>
+         <figure>
+           <img class="img-responsive transparent" src="img/projet_home/projet_sqp_grand.jpg" alt="webdesign sqp motor">
+             <figcaption>
+             <div class="content text-uppercase">
+             <h3>SQP Motors</h3>
+             <p class="btn btn-projet btn-lg">Voir le projet</p>
+             </div>
+           </figcaption>
+           </figure>
+         </a>
+       </div>
+      </div>
+    <div class="col-sm-4 espacement">
+      <div class="grid">
+          <a href="portfolio/campagne-mir.php" data-toggle="modal">
+          <h3 class="visible-xs title-mobile">Campagne MIR</h3>
+          <figure>
+            <img class="img-responsive transparent hidden-xs" src="img/projet_home/projet_mir_grand.jpg" alt="projet Mir">
+            <figcaption>
+              <div class="content text-uppercase">
+                <h3>Mir</h3>
+                <p class="btn btn-projet btn-lg hidden-xs" title="projet Mir">Voir le projet</p>
+              </div>
+              </figcaption>
+          </figure></a>
+        </div>
+    </div>
+  </div>
+    <div class="row">
+      <div class="col-sm-4 espacement">
+        <div class="grid">
+          <a href="portfolio/exposition-smartphood.php" data-toggle="modal">
             <h3 class="visible-xs title-mobile">smART PHOod</h3>
+            <figure>
             <img class="img-responsive transparent" src="img/projet_home/projet_logo_smartphood_grand.jpg" alt="smartphood" title="projet smartphood design">
             <figcaption>
               <div class="content text-uppercase">
@@ -78,217 +204,49 @@
               </div>
             </figcaption>
             </figure>
-          </a>  
+          </a>
         </div>
+      </div>
+      <div class="col-sm-4 espacement">
+         <div class="grid">
+         <a href="portfolio/webdesign-il-campiello.php">
+         <h3 class="visible-xs title-mobile">webdesign e-commerce <br/>IL CAMPIELLO</h3>
+         <figure>
+           <img class="img-responsive transparent" src="img/projet_home/projet_ilcampiello_petit.jpg" alt="projet il campiello">
+             <figcaption>
+             <div class="content text-uppercase">
+             <h3>IL CAMPIELLO</h3>
+             <p class="btn btn-projet btn-lg">Voir le projet</p>
+             </div>
+           </figcaption>
+           </figure>
+         </a>
        </div>
-    <div class="col-sm-4 espacement">
-        <div class="grid">
-          <a href="portfolio/webdesign-il-campiello.php" data-toggle="modal"><figure>
-            <h3 class="visible-xs title-mobile">webdesign e-commerce <br/>IL CAMPIELLO</h3>
-            <img class="img-responsive transparent" src="img/projet_home/projet_ilcampiello_moyen.jpg" alt="projet il campiello">
-              <figcaption>
-              <div class="content text-uppercase">
-              <h3>IL CAMPIELLO</h3>
-              <p class="btn btn-projet btn-lg">Voir le projet</p>
-              </div>
-              </figcaption>
-          </figure></a>
-        </div>
-      </div>
-    </div>
-
-    <div class="row">
-       <div class="col-sm-4 espacement">
-       <div class="grid">
-          <a href="portfolio/webdesign-sqp.php" data-toggle="modal"><figure>
-            <h3 class="visible-xs title-mobile">webdesign SQP</h3>
-            <img class="img-responsive transparent" src="img/projet_home/projet_sqp_petit.jpg" alt="webdesign sqp motors">
-              <figcaption>
-              <div class="content text-uppercasee">
-              <h3>SQP Motors</h3>
-              <p class="btn btn-projet btn-lg">Voir le projet</p>
-              </div>
-              </figcaption> 
-          </figure></a>
-        </div>
       </div>
       <div class="col-sm-4 espacement">
-       <div class="grid">
-          <a href="portfolio/webdesign-a2fconseils.php">
-          <figure>
-            <h3 class="visible-xs title-mobile">Webdesign A2f conseils</h3>
-            <img class="img-responsive transparent" src="img/projet_home/projet_a2f_petit.jpg" alt="projet webdesign a2f conseil" title="refonte site">
-              <figcaption>
-              <div class="content text-uppercase">
-              <h3>A2F Conseils</h3>
-              <p class="btn btn-projet btn-lg">Voir le projet</p>
-              </div>
-              </figcaption> 
-          </figure>
-          </a>
-        </div>
-      </div>
-      <div class="col-sm-4 espacement">
-       <div class="grid">
-         <a href="portfolio/application-feel-board.php">
-            <figure>
-              <h3 class="visible-xs title-mobile">Application FEEL BOARD</h3>
-              <img class="img-responsive transparent" src="img/projet_home/projet_feel_board_2.jpg" alt="projet Feel Board" title="Feel Board">
-                <figcaption>
-                <div class="content text-uppercase">
-                <h3>Feel Board</h3>
-                <p class="btn btn-projet btn-lg">Voir le projet</p>
-                </div>
-                </figcaption> 
-            </figure>
-          </a>
-        </div>
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="col-sm-4 espacement">
-        <div class="grid">
-          <a href="portfolio/webdesign-gouts-et-couleurs.php">
-            <figure>
-            <h3 class="visible-xs title-mobile">Webdesign GOÛTS ET COULEURS</h3>
-            <img class="img-responsive transparent" src="img/projet_home/projet_gout_medium.jpg" alt="projet goûts et couleurs" title="projet Goûts et Couleurs">
-            <figcaption>
-              <div class="content text-uppercase">
-                <h3>Goûts et Couleurs</h3>
-                <p class="btn btn-projet btn-lg" title="voir le projet Mir">Voir le projet</p>
-              </div>
-            </figcaption>
-            </figure>
-          </a>
-        </div>
-      </div>
-      <div class="col-sm-8 espacement">
         <div class="grid">
           <a href="portfolio/webdesign-bb-tea.php">
-            <figure>
               <h3 class="visible-xs title-mobile">Webdesign BB TEA</h3>
+              <figure>
               <img class="img-responsive transparent" src="img/projet_home/projet_bb_tea_grand.jpg" alt="projet webdesign portfolio v2" title="projet bb tea">
             <figcaption>
             <div class="content text-uppercase">
               <h3>BB TEA</h3>
               <p class="btn btn-projet btn-lg">Voir le projet</p>
             </div>
-            </figcaption> 
+            </figcaption>
             </figure>
           </a>
         </div>
       </div>
     </div>
-
-     <div class="row">
-      <div class="col-sm-4 espacement">
-       <div class="grid">
-          <a href="portfolio/graphisme-galadrielle.php">
-          <figure>
-            <h3 class="visible-xs title-mobile">GALADRIELLE</h3>
-            <img class="img-responsive transparent" src="img/projet_home/projet_galadrielle_petit.jpg" alt="projet galadrielle" title="Galadrielle">
-              <figcaption>
-              <div class="content text-uppercase">
-              <h3>Galadrielle</h3>
-              <p class="btn btn-projet btn-lg">Voir le projet</p>
-              </div>
-              </figcaption> 
-          </figure>
-          </a>
-        </div>
-      </div>
-      <div class="col-sm-4 espacement">
-       <div class="grid">
-          <a href="portfolio/campagne-mariage.php">
-            <figure>
-            <h3 class="visible-xs title-mobile">Campagne MARIAGE À L'ANGLAISE</h3>
-            <img class="img-responsive transparent" src="img/projet_home/projet_mariage.jpg" alt="projet Mariage à l'anglaise" title="Mariage à l'anglaise">
-              <figcaption>
-              <div class="content text-uppercase">
-              <h3>Mariage à l'anglaise</h3>
-              <p class="btn btn-projet btn-lg">Voir le projet</p>
-              </div>
-              </figcaption> 
-            </figure>
-          </a>
-        </div>
-      </div>
-    <div class="col-sm-4 espacement">
-     <div class="grid">
-          <a href="portfolio/campagne-mir.php">
-            <figure>
-            <h3 class="visible-xs title-mobile">Campagne MIR</h3>
-            <img class="img-responsive transparent" src="img/projet_home/projet_mir.jpg" alt="projet Mir" title="Mir">
-              <figcaption>
-              <div class="content text-uppercase">
-              <h3>Mir</h3>
-              <p class="btn btn-projet btn-lg">Voir le projet</p>
-              </div>
-              </figcaption> 
-            </figure>
-          </a>
-        </div>
-      </div>
-    </div>
-
-    <div class="row">
-       <div class="col-sm-4 espacement">
-        <div class="grid">
-          <a href="portfolio/newsletter-jean-louis-david.php">
-            <figure>
-            <h3 class="visible-xs title-mobile">Newsletter JEAN LOUIS DAVID</h3>
-            <img class="img-responsive transparent" src="img/projet_home/projet_jld.jpg" alt="projet jean louis david" title="Jean Louis David">
-              <figcaption>
-              <div class="content text-uppercase">
-              <h3>Jean Louis David</h3>
-              <p class="btn btn-projet btn-lg">Voir le projet</p>
-              </div>
-              </figcaption> 
-            </figure>
-          </a>
-        </div>
-      </div>
-      <div class="col-sm-4 espacement">
-       <div class="grid">
-          <a href="portfolio/webdesign-games-thread.php">
-            <figure>
-            <h3 class="visible-xs title-mobile">Webdesign GAMES THREAD</h3>
-            <img class="img-responsive transparent" src="img/projet_home/projet_games.jpg" alt="projet Games thread" title="Games Thread">
-              <figcaption>
-              <div class="content text-uppercase">
-              <h3>Games Thread</h3>
-              <p class="btn btn-projet btn-lg">Voir le projet</p>
-              </div>
-              </figcaption> 
-            </figure>
-          </a>
-        </div>
-      </div>
-      <div class="col-sm-4 espacement">
-      <div class="grid">
-           <a href="portfolio/logotype-dream-developpement.php">
-            <figure>
-            <h3 class="visible-xs title-mobile">Logotype DREAM DEVELOPPEMENT</h3>
-            <img class="img-responsive transparent" src="img/projet_home/projet_dream.jpg" alt="projet Dream developpement" title="dream developpement">
-              <figcaption>
-              <div class="content text-uppercase">
-              <h3>Dream developpement</h3>
-             <p class="btn btn-projet btn-lg">Voir le projet</p>
-              </div>
-              </figcaption> 
-            </figure>
-          </a> 
-        </div>
-      </div>
-    </div>  
 
      <div class="row">
         <div class="col-sm-8 espacement">
           <div class="grid">
           <a href="portfolio/campagne-seb.php">
-            <figure> 
             <h3 class="visible-xs title-mobile">Campagne SEB</h3>
+            <figure>
             <img class="img-responsive transparent" src="img/projet_home/projet_seb.jpg" alt="projet seb" title="Mission campagne Mir">
             <figcaption>
               <div class="content text-uppercase">
@@ -303,48 +261,49 @@
       <div class="col-sm-4 espacement">
         <div class="grid">
           <a href="portfolio/campagne-mobile-givenchy.php">
-            <figure>
             <h3 class="visible-xs title-mobile">Campagne mobile GIVENCHY</h3>
-            <img class="img-responsive transparent" src="img/projet_home/projet_givenchy.jpg" alt="projet givenchy" title="Givenchy">
+            <figure>
+            <img class="img-responsive transparent hidden-xs" src="img/projet_home/projet_givenchy.jpg" alt="projet givenchy" title="Givenchy">
+            <img class="img-responsive transparent visible-xs" src="img/projet_home/projet_givenchy_grand.jpg" alt="projet givenchy" title="Givenchy">
               <figcaption>
               <div class="content text-uppercase">
               <h3>Givenchy</h3>
               <p class="btn btn-projet btn-lg">Voir le projet</p>
             </div>
-              </figcaption> 
+              </figcaption>
             </figure>
           </a>
         </div>
       </div>
-    </div>  
+    </div>
 
     <div class="row">
       <div class="col-sm-4 espacement">
           <div class="grid">
           <a href="portfolio/campagne-bonheur-ogres.php">
-            <figure>
             <h3 class="visible-xs title-mobile">Campagne AU BONHEUR DES OGRES</h3>
-            <img class="img-responsive transparent" src="img/projet_home/projet_bonheur.jpg" alt="projet au bonheur des ogres" title="Au bonheur des ogres">
+            <figure>
+            <img class="img-responsive transparent" src="img/projet_home/projet_bonheur_grand.jpg" alt="projet au bonheur des ogres" title="Au bonheur des ogres">
               <figcaption>
               <div class="content text-uppercase">
               <h3>Au bonheur des ogres</h3>
               <p class="btn btn-projet btn-lg">Voir le projet</p>
               </div>
-              </figcaption> 
+              </figcaption>
           </figure>
-          </a> 
+          </a>
         </div>
       </div>
        <div class="col-sm-4 espacement">
           <div class="grid">
           <a href="portfolio/graphisme-toutou-nounou.php">
-            <figure> 
             <h3 class="visible-xs title-mobile">Webdesign TOUTOU NOUNOU</h3>
-            <img class="img-responsive transparent" src="img/projet_home/projet_toutou.jpg" alt="projet toutou nounou" title="projet toutou nounou">
+            <figure>
+            <img class="img-responsive transparent" src="img/projet_home/projet_tt_grand.jpg" alt="projet toutou nounou" title="projet toutou nounou">
             <figcaption>
               <div class="content text-uppercase">
                 <h3>Toutou Nounou</h3>
-                <p class="btn btn-projet btn-lg" title="voir le projet Mir">Voir le projet</p>
+                <p class="btn btn-projet btn-lg" title="voir le projet Toutou nounou">Voir le projet</p>
               </div>
             </figcaption>
             </figure>
@@ -354,70 +313,71 @@
         <div class="col-sm-4 espacement">
           <div class="grid">
           <a href="portfolio/mobile-paris-en-vert.php">
-            <figure> 
             <h3 class="visible-xs title-mobile">Application mobile PARIS EN VERT</h3>
-            <img class="img-responsive transparent" src="img/projet_home/projet_paris.jpg" alt="projet paris en vert" title="projet paris en vert">
+            <figure>
+            <img class="img-responsive transparent" src="img/projet_home/projet_paris_grand.jpg" alt="projet paris en vert" title="projet paris en vert">
             <figcaption>
               <div class="content text-uppercase">
                 <h3>Paris en vert</h3>
-                <p class="btn btn-projet btn-lg" title="voir le projet Mir">Voir le projet</p>
+                <p class="btn btn-projet btn-lg" title="voir le projet Paris en vert">Voir le projet</p>
               </div>
              </figcaption>
              </figure>
-           </a> 
+           </a>
           </div>
        </div>
-    </div> 
+    </div>
 
     <div class="row">
+    <div class="col-sm-4 espacement">
+      <div class="grid">
+           <a href="portfolio/logotype-dream-developpement.php">
+            <h3 class="visible-xs title-mobile">Logotype DREAM DEVELOPPEMENT</h3>
+            <figure>
+            <img class="img-responsive transparent" src="img/projet_home/projet_dream_grand.jpg" alt="projet Dream developpement" title="dream developpement">
+              <figcaption>
+              <div class="content text-uppercase">
+              <h3>Dream developpement</h3>
+             <p class="btn btn-projet btn-lg">Voir le projet</p>
+              </div>
+              </figcaption>
+            </figure>
+          </a>
+        </div>
+      </div>
       <div class="col-sm-4 espacement">
         <div class="grid">
           <a href="portfolio/campagne-asepta.php">
-            <figure> 
             <h3 class="visible-xs title-mobile">Campagne Asepta</h3>
-            <img class="img-responsive transparent" src="img/projet_home/projet_asepta.jpg" alt="projet toutou nounou" title="projet Asepta">
+            <figure>
+            <img class="img-responsive transparent" src="img/projet_home/projet_asepta_grand.jpg" alt="projet toutou nounou" title="projet Asepta">
             <figcaption>
               <div class="content text-uppercase">
                 <h3>Asepta</h3>
-                <p class="btn btn-projet btn-lg" title="voir le projet Mir">Voir le projet</p>
+                <p class="btn btn-projet btn-lg" title="voir le projet Asepta">Voir le projet</p>
               </div>
             </figcaption>
             </figure>
           </a>
           </div>
        </div>
-      <div class="col-sm-4 espacement">
-         <div class="grid">
-          <a href="portfolio/webdesign-terredav.php">
+       <div class="col-sm-4 espacement">
+       <div class="grid">
+          <a href="portfolio/mobiledesign-stootie.php">
+            <h3 class="visible-xs title-mobile">Stootie</h3>
             <figure>
-            <h3 class="visible-xs title-mobile">Webdesign TERRE D'AV</h3>
-            <img class="img-responsive transparent" src="img/projet_home/projet_terredav.jpg" alt="projet terre d'aventure" title="Jean Louis David">
+            <img class="img-responsive transparent" src="img/projet_home/projet_stootie2.jpg" alt="projet stootie">
               <figcaption>
               <div class="content text-uppercase">
-              <h3>Terre d'av</h3>
+              <h3>Stootie</h3>
               <p class="btn btn-projet btn-lg">Voir le projet</p>
               </div>
-              </figcaption> 
-            </figure>
+              </figcaption>
+          </figure>
           </a>
         </div>
-      </div> 
-      <div class="col-sm-4 espacement">
-        <div class="grid">
-          <a href="portfolio-other.html">
-            <figure> 
-            <h3 class="visible-xs title-mobile">Projet DIVERS</h3>
-            <img class="img-responsive transparent" src="img/projet_home/projet_autre.jpg" alt="projet autres" title="autres projet">
-            <figcaption>
-              <div class="content text-uppercase">
-                <p class="btn btn-projet btn-lg" title="voir les projets">Divers</p>
-              </div>
-             </figcaption>
-             </figure>
-           </a> 
-          </div>
-       </div>
-    </div> 
+      </div>
+    </div>
 
     <div class="row text-center">
         <p class="text-uppercase">Revenir en haut</p>
@@ -426,19 +386,19 @@
     </div>
   </section>
   <footer>
-    <div class="footer-below text-center">
-      <div class="container">
+    <div class="footer-below">
+      <div class="container text-center">
         <div class="row col-lg-12">
-          <ul class="mobile_center">
-            <li class="inline-block"><a href="mailto:loancrea@gmail.com"><img src="img/btn/social/btn_mail.png" class=" btn-mail btn-social" alt="m'envoyer un mail"/></a></li>
-            <li class="inline-block"><a href="https://www.behance.net/loan-truong"><img src="img/btn/social/btn_behance.png" class="btn-behance btn-social" alt="lien vers behance"/></a></li>
-            <li class="inline-block"><a href="https://www.linkedin.com/pub/loan-truong/73/891/228"><img src="img/btn/social/btn_in.png" class="btn-in btn-social" alt="lien vers linkedin"/></a></li>
+          <ul class="mobile_center padding-footer">
+            <li class="inline-block"><a href="img/about/cv_loan_truong_ui_ux_designer_bordeaux.pdf">CV</a><p class="inline-block separate-vertical">|</p></li>
+            <li class="inline-block"><a href="mailto:loancrea@gmail.com">loancrea@gmail.com</a><p class="inline-block separate-vertical">|</p></li>
+            <li class="inline-block"><a href="https://www.linkedin.com/pub/loan-truong">linkedin</a><p class="inline-block separate-vertical">|</p></li>
+            <li class="inline-block"><a href="https://twitter.com/loancrea">twitter</a><p class="inline-block separate-vertical">|</p></li>
+            <li class="inline-block"><a href="https://medium.com/@loancrea">medium</a></li>
           </ul>
         </div>
-        <div class="row">
-          <div class="col-lg-12">
-            <p class="copyright">Copyright &copy; 2014 - Loan truong</p>
-          </div>
+        <div class="row col-lg-12">
+            <p class="copyright">design & développement &copy; 2017 - Loan Truong</p>
         </div>
       </div>
     </div>

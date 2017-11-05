@@ -10,9 +10,9 @@
   $demande = "Créer l'habillage et les formats auto-promotionnels de la campagne publicitaire.</p>
         <p>CONCEPT : Jouer sur la mousse et la sensualité.</p>
         <p>Avant d'arriver sur le site internet, l'internaute tombe sur un décor rose, qui se remplit de mousse.
-        On peut apercevoir des objets de la campagne, tel que de la vaisselle, un canard rose, une éponge en forme de 
+        On peut apercevoir des objets de la campagne, tels que de la vaisselle, un canard rose, une éponge en forme de 
         cœur et des pétales de rose. Au fur et à mesure, le site se remplit de mousse. 
-        La mousse petit à petit s'en va pour faire apparaitre le site et l'habillage publicitaire final avec le produit MIR Vaisselle.";
+        La mousse petit à petit s'en va pour faire apparaître le site et l'habillage publicitaire final avec le produit MIR Vaisselle.";
   $client = "Henkel // mission entreprise – Webedia ";
   $role = "graphisme habillages et auto-promos et scénarisation du FT";
   $logiciel = "Photoshop";
@@ -62,7 +62,7 @@
 
 <?php
   $urlPrecedent ="graphisme-galadrielle.php";
-  $urlSuivant = "application-feel-board.php";
+  $urlSuivant = "graphisme-toutou-nounou.php";
   include('./../aside.php');
 ?>
 

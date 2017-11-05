@@ -8,13 +8,13 @@
   $descriptionHeader = "header il campiello";
   $projetTitle = "Il campiello";
   $demande = "L'entreprise Il Campiello possède depuis 1980 une boutique sur paris. 
-  La boutique présente une collection permanente et renouvelée d'objets. Masques vénitiens, 
-  bijoux et pleins d'autres objets fabriqué par les meilleurs artisans de Venise sont accessibles à la vente 
+  La boutique présente une collection permanente et renouvelée d'objets. Masques vénitien, 
+  bijoux et pleins d'autres objets fabriqués par les meilleurs artisans de Venise sont accessibles à la vente 
   sur le site et dans la boutique. Avec la montée de la vente en ligne sur les différents supports numériques, 
-  Il Campiello souhaite se renouveler afin d'acquérir de nouveau client potentiel, tout en facilitant l'achat en 
+  Il Campiello souhaite se renouveler afin d'acquérir de nouveaux clients potentiels, tout en facilitant l'achat en 
   ligne des utilisateurs actuels. <br/>Pour la nouvelle image d'Il Campiello, j'ai créé un logotype simple et élégant 
   et la refonte du design, du site existant.";
-  $client = "Il campiello - mission personnelle";
+  $client = "Il campiello - projet personnel";
   $role = "identité graphique - logotype - ergonomie - design web et mobile";
   $logiciel = "Photoshop - Illustrator";
   $date = "octobre 2014";
