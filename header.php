@@ -10,7 +10,8 @@
     <link rel="shortcut icon" href="../img/favicon.png" type="image/x-icon">
     <title><?php echo $title; ?></title>
     <link href="../css/styles.css" rel="stylesheet">
-   <link rel="stylesheet" href="../css/stylesheet.css" type="text/css" charset="utf-8" />
+   <link rel="stylesheet" href="../css/styles.css" type="text/css" charset="utf-8" />
+
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
