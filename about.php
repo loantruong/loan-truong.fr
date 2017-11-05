@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Page à propos de Loan Truong, UI/UX Designer, Bordeaux.">
-    <meta name="author" content="Loan Truong, UI/UX Designer">
-    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
-    <title>Portfolio de Loan Truong, UI/UX Designer, Bordeaux</title>
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/styles.css" rel="stylesheet">
-    <link rel="stylesheet" href="../css/stylesheet.css" type="text/css" charset="utf-8" />
-    <!-- Just for debugging purposes. Don't actually copy this line! -->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Page à propos de Loan Truong, UI/UX Designer, Bordeaux.">
+  <meta name="author" content="Loan Truong, UI/UX Designer">
+
+  <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+  <title>Portfolio de Loan Truong, UI/UX Designer, Bordeaux</title>
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/styles.css" rel="stylesheet">
+  <link rel="stylesheet" href="../css/stylesheet.css" type="text/css" charset="utf-8" />
+  
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
