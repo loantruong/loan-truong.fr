@@ -6,6 +6,7 @@
 
 body, html{
 	overflow-x: hidden;
+	width: 100%;
 }
 .container{
 	overflow: hidden;
@@ -793,6 +794,7 @@ textarea {
 	}
 	.text-size-slide{
 		font-size: 20px;
+		padding: 0 5px;
 	}
 	.gradient{
 		height: 440px;

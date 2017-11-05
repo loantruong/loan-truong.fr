@@ -4,11 +4,11 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Page à propos de Loan Truong, UI/UX Designer, Bordeaux.">
-  <meta name="author" content="Loan Truong, UI/UX Designer">
+  <meta name="description" content="Page à propos de Loan Truong, développeuse Full Stack JavaScritp et UI/UX designer à la recherche d'opportunités">
+  <meta name="author" content="Loan Truong">
 
   <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
-  <title>Portfolio de Loan Truong, UI/UX Designer, Bordeaux</title>
+  <title>A propos de Loan Truong, développeuse Full Stack JavaScritp et UI/UX designer, Bordeaux</title>
   <link href="css/bootstrap.min.css" rel="stylesheet">
   <link href="css/styles.css" rel="stylesheet">
   <link rel="stylesheet" href="../css/stylesheet.css" type="text/css" charset="utf-8" />
@@ -59,10 +59,9 @@
         <p>métier : créative développeuse</p>
         <p>expérience design : 4 ans</p>
         <p>valeurs : la passion, l’écoute, la créativité, l’exigence, l’engagement.</p>
-        <p class="text-italic space-header-work">J’aide les entreprises à se démarquer en développant des sites web et application mobile à la fois ergonomiques et élégantes</p>
+        <p class="text-italic space-header-work">J’aide les entreprises à se démarquer en développant des sites web à la fois ergonomiques et élégantes</p>
       </div>
     </div>
-  </div>
   </content>
   <content>
     <div class="row skill">

@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="<?php echo $description; ?>">
-  <meta name="author" content="Je suis UI/UX Designer, j’aide les entreprises à se démarquer en désignant des interfaces web et mobile à la fois ergonomiques et élégantes">
+  <meta name="author" content="Loan Truong">
   
   <link rel="shortcut icon" href="../img/favicon.png" type="image/x-icon">
   <link href="../css/styles.css" rel="stylesheet">
