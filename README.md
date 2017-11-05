@@ -10,4 +10,4 @@
 
 technology used: *html5, CSS3, Bootstrap 3, jQuery and php*
 
-[see my website](www.loan-truong.fr)
+[www.loan-truong.fr](www.loan-truong.fr)
