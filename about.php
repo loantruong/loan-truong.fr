@@ -33,7 +33,7 @@
             <span class="icon-bar"></span>
           </button>
         <!--<a href="index.html"><img src="img/btn/logo_petit.png" alt="logotype" class="img-responsive logo"/><p>Loan Truong, <br/> UX & UI designer</p></a>-->
-        <a href="index.html"><img src="img/btn/logo_loan_nav.svg" alt="logotype" class="logo-nav-img"/><p class="logo-nav josefin-font">Loan Truong, <br/> UX & UI designer</p></a>
+        <a href="index.html"><img src="img/btn/logo_loan_nav.svg" alt="logotype" class="logo-nav-img"/><p class="logo-nav josefin-font">Loan Truong, <br/>conceptrice de site</p></a>
         </div>
         <div class="collapse navbar-collapse">
           <ul class="nav navbar-nav navbar-right">

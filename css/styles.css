@@ -181,15 +181,36 @@ h4 {
 .name-loan{
     font-size: 2em;
 }
+.cta-work-black{
+	background-color: rgb(39, 39, 39);
+}
+.cta-work-filter{
+	background-color: rgba(39, 39, 39, 0.34);
+	margin: 1rem 0.2rem;
+}
 .cta-work{
     color: #fff;
     padding: 15px;
-    background-color: rgb(39, 39, 39);
     transition: background-color 1s;
     border-radius: 2px;
 }
 .cta-work:hover{
     background-color: #ffaf47;
+}
+.cta-dev:hover{
+	background-color: #b9dbff;
+}
+.cta-design:hover{
+	background-color: #f6d0ff;
+}
+#cta-work-active{
+	background-color: #ffaf47;
+}
+#cta-design-active{
+	background-color: #e0aaec;
+}
+#cta-dev-active{
+	background-color: #91bff1;
 }
 a.cta-work:hover, a.cta-work:focus, a.cta-work:active{
     color: #fff;
@@ -757,6 +778,9 @@ textarea {
 	}
 	.gradient{
 		background-attachment: fixed;
+	}
+	.filter{
+		text-align: right;
 	}
 }
 @media (min-width: 765px) and (max-width: 1350px){
