@@ -9,7 +9,7 @@
   <meta name="author" content="Loan Truong">
   
   <link rel="shortcut icon" href="../img/favicon.png" type="image/x-icon">
-  <link href="../css/styles.css" rel="stylesheet">
+  <link href="../css/styles.min.css" rel="stylesheet">
 
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->

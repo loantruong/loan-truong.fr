@@ -10,9 +10,7 @@
   <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
   <title>A propos de Loan Truong, développeuse Full Stack JavaScritp et UI/UX designer, Bordeaux</title>
   <link href="css/bootstrap.min.css" rel="stylesheet">
-  <link href="css/styles.css" rel="stylesheet">
-  <link rel="stylesheet" href="../css/stylesheet.css" type="text/css" charset="utf-8" />
-  
+  <link href="css/styles.min.css" rel="stylesheet">  
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
