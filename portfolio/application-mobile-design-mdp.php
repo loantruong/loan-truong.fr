@@ -59,7 +59,7 @@ Il est alors important pour la version smartphone de simplifier et de montrer un
   </section>
 
 <?php
-  $urlPrecedent ="webdesign-wild-circus.php";
+  $urlPrecedent ="application-mobile-design-mdp.php.php";
   $urlSuivant = "application-mobile-design-mb-iPhone.php";
   include('./../aside.php');
 ?>

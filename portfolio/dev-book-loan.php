@@ -1,6 +1,6 @@
 <?php
-  $description = "Développement d'une application météo avec visualisation des caméras de la ville";
-  $title = "Application météo";
+  $description = "Refonte de mon portfolio personnel";
+  $title = "portfolio de loan truong";
   include('./../header.php');
 ?>
 <?php

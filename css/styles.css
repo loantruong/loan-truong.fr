@@ -323,6 +323,9 @@ a.cta-work:hover, a.cta-work:focus, a.cta-work:active{
 .bordure{
 	border: 1px solid #e0e0e0;
 }
+.draw-p5{
+	max-width: 70%;
+}
 .padding-projet{
 	padding: 20px 0 0 0;
 }

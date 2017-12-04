@@ -11,9 +11,9 @@
         <p>DEMANDE : <?php echo $demande; ?></p>
         <div class="legend-projet">
           <p class="legend-projet-texte">Client : <?php echo $client; ?>
+          <br/>Date : <?php echo $date; ?>
           <br/>Rôle : <?php echo $role; ?>
-          <br/>Logiciel : <?php echo $logiciel; ?>
-          <br/>Date : <?php echo $date; ?></p>
+          <br/>Logiciel/Langage : <?php echo $logiciel; ?></p>
         </div>
       </div>
     </div>

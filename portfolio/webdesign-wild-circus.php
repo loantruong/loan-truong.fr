@@ -20,14 +20,14 @@
       <div class="btn-link-site"><a href="http://loan-truong.fr/wild_circus/index.html"><span>voir le site</span></a></div>
     </div>
     <div class="row margin-top">
-        <img src="../img/portfolio/wild_circus/webdesign_wild_circus_01.jpg" class="img-responsive" alt="maquette design de la vue recherche sur tablette"/>
+        <img class="img-responsive" src="../img/portfolio/wild_circus/webdesign_wild_circus_01.jpg" alt="capture du site"/>
     </div>
 
   </section>
 
 <?php
-  $urlPrecedent ="graphisme-toutou-nounou.php";
-  $urlSuivant = "application-mobile-design-mdp.php";
+  $urlPrecedent ="dev-nanny-care.php";
+  $urlSuivant = "infographie_product_design_sprint.php";
   include('./../aside.php');
 ?>
 
