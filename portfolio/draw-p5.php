@@ -26,7 +26,7 @@
   </section>
 
 <?php
-  $urlPrecedent ="graphisme-toutou-nounou.php";
+  $urlPrecedent ="dev-video-search.php";
   $urlSuivant = "dev-weather-app.php";
   include('./../aside.php');
 ?>
