@@ -16,6 +16,11 @@
   $date = "avril 2017";
   include('./../projet-presentation.php');
 ?>
+    <div class="row">
+      <div class="col-sm-8 col-sm-offset-2">
+        <div class="btn-link-site"><a href="https://medium.com/scribe/product-design-sprint-comment-innover-en-5-jours-a4d3ce3c091d"><span>lire l'article</span></a></div>
+      </div>
+    </div>
     <div class="bg-projet-image-no-padding">
     <div class="row margin-top">
       <p class="text-center">
