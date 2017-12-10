@@ -7,16 +7,23 @@
   $urlHeader = "licence_open_source/header_licence_open_source";
   $descriptionHeader = "header projet choisir sa licence open source";
   $projetTitle = "Choisir sa licence Open Source";
-  $demande = "Redesign du site en s’éloignant complètement du site d’origine. (<a href='http://choosealicense.com' class='texte_cv'>www.choosealicense.com</a>).
+  $demande = "Redesign du site en s’éloignant complètement du site d’origine. [<a href='http://choosealicense.com' class='texte_cv'>www.choosealicense.com</a>].
   <br/>Donner un esprit humoristique au site. La cible est monsieur tout le monde.
 Il faut que le site devienne une référence pour les gens. Si une personne à besoin de se renseigner sur une 
-licence libre de droits ou sur l’open-source, il faut qu’elle pense à aller sur ce site.";
+licence libre de droits ou sur l’open-source, il faut qu’elle pense à aller sur ce site.
+  <br />
+  Création d'une première ébauche d'intégration static du site en html, css et bootstrap";
   $client = "choisir une licence";
   $role = "ergonomie, webdesign, illustration";
   $logiciel = "Axure - Photoshop - Illustrator";
   $date = "avril 2015";
   include('./../projet-presentation.php');
 ?>
+  <div class="row">
+    <div class="col-sm-8 col-sm-offset-2">
+      <div class="btn-link-site"><a href="http://video-search.loan-truong.fr/"><span>voir le site</span></a></div>
+    </div>
+  </div>
   <div class="bg-projet-image">
     <div class="row col-sm-12">
         <h2 class="col-sm-6 col-sm-offset-3">Mockup des interfaces</h2><br/>

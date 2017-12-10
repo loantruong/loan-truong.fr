@@ -16,7 +16,7 @@
   include('./../projet-presentation.php');
 ?>
     <div class="row col-sm-8 col-sm-offset-2">
-      <div class="btn-link-site"><a href="https://video-search-prod.herokuapp.com/"><span>voir le site</span></a></div>
+      <div class="btn-link-site"><a href="http://video-search.loan-truong.fr/"><span>voir le site</span></a></div>
     </div>
     <div class="row margin-top">
       <img class="center-block img-responsive draw-p5" src="../img/portfolio/video-search/video-search.jpg" class="img-responsive" alt="capture du site"/>
