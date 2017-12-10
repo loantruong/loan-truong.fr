@@ -21,7 +21,7 @@ licence libre de droits ou sur l’open-source, il faut qu’elle pense à aller
 ?>
   <div class="row">
     <div class="col-sm-8 col-sm-offset-2">
-      <div class="btn-link-site"><a href="http://video-search.loan-truong.fr/"><span>voir le site</span></a></div>
+      <div class="btn-link-site"><a href="https://loantruong.github.io/choose-license/"><span>voir le site</span></a></div>
     </div>
   </div>
   <div class="bg-projet-image">
