@@ -13,7 +13,7 @@
               ressources : OpenWeatherMap et Webcams.travel";
   $client = "Wild School - Hackathon 24h";
   $role = "développement de l'application, front-end";
-  $logiciel = "Visual Studio Code, AngularJS, nodeJS";
+  $logiciel = "AngularJS, nodeJS";
   $date = "octobre 2017";
   include('./../projet-presentation.php');
 ?>

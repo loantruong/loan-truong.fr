@@ -11,7 +11,7 @@
             (mise en place de la base de donnée, du server (routes, controller), authentification, envoie de mail dynamique)";
   $client = "Comodo SAS";
   $role = "mise en place de la base de donnée,développement du back-end";
-  $logiciel = "Visual Studio Code, JavaScript, Node.js, MySQL, Sequelize";
+  $logiciel = "JavaScript, Node.js, MySQL, Sequelize";
   $date = "octobre à novembre 2017";
   include('./../projet-presentation.php');
 ?>
@@ -23,7 +23,7 @@
 
 <?php
   $urlPrecedent ="dev-weather-app.php";
-  $urlSuivant = "webdesign-wild-circus.php";
+  $urlSuivant = "dev-book-store.php";
   include('./../aside.php');
 ?>
 

@@ -31,7 +31,7 @@
   </section>
   
 <?php
-  $urlPrecedent ="webdesign-wild-circus.php";
+  $urlPrecedent ="dev-book-store-php.php";
   $urlSuivant = "application-mobile-design-mb-iPhone.php";
   include('./../aside.php');
 ?>

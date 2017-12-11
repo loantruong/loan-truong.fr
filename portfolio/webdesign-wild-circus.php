@@ -26,8 +26,8 @@
   </section>
 
 <?php
-  $urlPrecedent ="dev-nanny-care.php";
-  $urlSuivant = "infographie_product_design_sprint.php";
+  $urlPrecedent ="dev-book-store.php";
+  $urlSuivant = "dev-book-store-php.php";
   include('./../aside.php');
 ?>
 

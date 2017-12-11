@@ -12,7 +12,7 @@
               artistes, les concepteurs et les curieux.";
   $client = "projet personnel";
   $role = "développement de la page";
-  $logiciel = "Visual Studio Code, JavaScript, p5.js";
+  $logiciel = "JavaScript, p5.js";
   $date = "décembre 2017";
   include('./../projet-presentation.php');
 ?>

@@ -28,7 +28,7 @@
   </section>
 
 <?php
-  $urlPrecedent ="application-mobile-design-mb-iPhone.php";
+  $urlPrecedent ="infographie_product_design_sprint.php";
   $urlSuivant = "application-mobile-design-mb-android.php";
   include('./../aside.php');
 ?>

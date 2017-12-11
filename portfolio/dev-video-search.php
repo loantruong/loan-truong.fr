@@ -10,8 +10,8 @@
   $demande = "Développer une application permettant de visualiser et rechercher des vidéos <br />
               ressources : youtube data api";
   $client = "projet personnel";
-  $role = "développement de l'application, front-end";
-  $logiciel = "Visual Studio Code, React";
+  $role = "développement de l'application [front-end]";
+  $logiciel = "React, ES6";
   $date = "décembre 2017";
   include('./../projet-presentation.php');
 ?>
