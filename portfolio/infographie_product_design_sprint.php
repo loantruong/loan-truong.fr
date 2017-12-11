@@ -9,7 +9,7 @@
   $descriptionHeader = "Product Sprint Design";
   $projetTitle = "Infographie";
   $demande = "Création d'une infographie pour illustrer mon article sur le Product Design Sprint. Le Product Design Sprint est une méthode de Design Thinking qui permet de répondre rapidement à une problématique 
-  de design en 5 jours. Elle a été initiée par l’équipe de Google Venture, inspirée par IDEO et la School de Stanford... ".$lien."";
+  de design en 5 jours. Elle a été initiée par l’équipe de Google Venture, inspirée par IDEO et la School de Stanford...";
   $client = "Personnel";
   $role = "graphisme, illustration, écriture";
   $logiciel = "Illustrator";
