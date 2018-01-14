@@ -87,10 +87,13 @@
             <ul class="puce-about">
               <li>HTML</li>
               <li>CSS3</li>
+              <li>SCSS</li>
               <li>Twitter Bootstrap</li>
               <li>Angular JS</li>
               <li>Node.js</li>
               <li>MySQL</li>
+              <li>Webpack</li>
+              <li>API REST</li>
               <li>Git et GitHub</li>
             </ul>
         </div>
